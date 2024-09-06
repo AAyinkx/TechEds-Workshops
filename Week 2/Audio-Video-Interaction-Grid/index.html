@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+    <title>Audio and Video Interactions</title>
+  </head>
+  <body>
+    <header>
+      <h1>Media Interaction</h1>
+      <h2>Creating our own Media buttons and other Cool stuff</h2>
+    </header>
+    <main>
+      <img
+        src="./Media/stingrays.png"
+        alt="Oceans clipart"
+        width="300"
+        height="auto"
+      />
+      <audio id="audio-player" src="./Media/Ocean.mp3" controls></audio>
+      <div class="audio-player">
+        <button id="play-button">Play</button>
+        <button id="pause-button">Pause</button>
+        <button id="stop-button">Stop</button>
+        <button id="skip-button">Skip 3 secs</button>
+      </div>
+      <video
+        id="video-player"
+        src="./Media/Jellyfish.mp4"
+        controls
+        width="300"
+        height="auto"
+      ></video>
+      <div class="video-player">
+        <button id="play-video">Play</button>
+        <button id="pause-video">Pause</button>
+        <button id="stop-video">Stop</button>
+        <button id="skip-video">Skip 3 secs</button>
+      </div>
+    </main>
+    <footer>All this great Media</footer>
+  </body>
+</html>

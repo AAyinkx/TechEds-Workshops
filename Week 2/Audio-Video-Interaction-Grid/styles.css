@@ -1,0 +1,60 @@
+body {
+  background-color: #55ccc9;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+button {
+  border-radius: 15px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#play-button,
+#play-video {
+  background-color: #04aa6d;
+}
+#pause-button,
+#pause-video {
+  background-color: #555555;
+}
+#stop-button,
+#stop-video {
+  background-color: #f44336;
+}
+#skip-button,
+#skip-video {
+  background-color: #008cba;
+}
+/* Holy Grail Grid Template */
+body {
+  display: grid;
+  grid-template-columns: 1fr 50% 1fr;
+  grid-template-rows: 2fr 3fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+header {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-end: -1;
+}
+
+main {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+footer {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  text-align: center;
+  justify-self: center;
+}
