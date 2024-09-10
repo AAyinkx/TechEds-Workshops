@@ -46,6 +46,7 @@ header {
 main {
   grid-column-start: 2;
   grid-column-end: 3;
+  grid-row-gap: 10px;
   display: flex;
   flex-direction: column;
   justify-items: center;

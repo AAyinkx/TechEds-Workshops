@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- Montesserat Font styles sheet -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <script src="./script.js" defer></script>
+    <title>Forms and Validation</title>
+  </head>
+  <body>
+    <h1>Forms and validation</h1>
+    <form>
+      <label>Username </label>
+      <input
+        type="text"
+        name="username"
+        id="username-input"
+        required
+        placeholder="Your username needs at least 1 character"
+      />
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email-input" />
+      <label for="password">Password</label>
+      <input
+        type="password"
+        name="password"
+        id="password-input"
+        class="password-input"
+        required
+        placeholder="Please enter a new password"
+        minlength="8"
+        maxlength="20"
+      />
+      <label for="birthdate">Date of Birth</label>
+      <input type="date" name="birthdate" id="birthdate-input" />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

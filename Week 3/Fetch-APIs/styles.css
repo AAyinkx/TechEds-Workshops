@@ -1,0 +1,15 @@
+body {
+  background-color: #ff7f50;
+}
+h1 {
+  text-align: center;
+}
+#main-container {
+  position: relative;
+}
+#main-container img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-bottom: 25px;
+}

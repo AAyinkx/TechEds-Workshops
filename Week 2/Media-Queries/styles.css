@@ -1,0 +1,9 @@
+.box {
+  background-color: blueviolet;
+  color: white;
+  border-radius: 15px;
+  height: 5rem;
+  width: 5rem;
+  text-align: center;
+  justify-content: center;
+}
