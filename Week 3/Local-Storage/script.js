@@ -59,7 +59,7 @@ function loadColour() {
 }
 loadColour();
 
-//!We can also remove data from local strogare
+//!We can also remove data from local storage
 const clearButton = document.getElementById("clear");
 
 function clearColour() {
