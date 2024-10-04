@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "flavour": "Vanilla",
+    "name": "Classic Vanilla Delight",
+    "price": 3.5
+  },
+  {
+    "id": 2,
+    "flavour": "Chocolate",
+    "name": "Choco Bliss",
+    "price": 4.0
+  },
+  {
+    "id": 3,
+    "flavour": "Strawberry",
+    "name": "Berry Strawberry Swirl",
+    "price": 3.8
+  },
+  {
+    "id": 4,
+    "flavour": "Mint",
+    "name": "Minty Fresh",
+    "price": 4.2
+  },
+  {
+    "id": 5,
+    "flavour": "Cookies and Cream",
+    "name": "Cookie Dream",
+    "price": 4.5
+  },
+  {
+    "id": 6,
+    "flavour": "Pistachio",
+    "name": "Nutty Pistachio Bliss",
+    "price": 4.7
+  },
+  {
+    "id": 7,
+    "flavour": "Salted Caramel",
+    "name": "Caramel Crunch",
+    "price": 5.0
+  },
+  {
+    "id": 8,
+    "flavour": "Coffee",
+    "name": "Café Mocha Magic",
+    "price": 4.3
+  },
+  {
+    "id": 9,
+    "flavour": "Mango",
+    "name": "Mango Tango",
+    "price": 3.9
+  },
+  {
+    "id": 10,
+    "flavour": "Banana",
+    "name": "Banana Split Supreme",
+    "price": 4.1
+  },
+  {
+    "id": 11,
+    "flavour": "Coconut",
+    "name": "Coco Loco",
+    "price": 4.6
+  },
+  {
+    "id": 12,
+    "flavour": "Peanut Butter",
+    "name": "Peanut Butter Bliss",
+    "price": 5.2
+  },
+  {
+    "id": 13,
+    "flavour": "Raspberry",
+    "name": "Raspberry Ripple",
+    "price": 3.7
+  },
+  {
+    "id": 14,
+    "flavour": "Lemon",
+    "name": "Zesty Lemon Zing",
+    "price": 3.6
+  },
+  {
+    "id": 15,
+    "flavour": "Matcha",
+    "name": "Matcha Green Tea",
+    "price": 5.3
+  },
+  {
+    "id": 16,
+    "flavour": "Blueberry",
+    "name": "Blueberry Blast",
+    "price": 4.4
+  },
+  {
+    "id": 17,
+    "flavour": "Cherry",
+    "name": "Cherry Jubilee",
+    "price": 4.8
+  },
+  {
+    "id": 18,
+    "flavour": "Butterscotch",
+    "name": "Butterscotch Bliss",
+    "price": 4.9
+  },
+  {
+    "id": 19,
+    "flavour": "Tiramisu",
+    "name": "Tiramisu Twist",
+    "price": 5.5
+  },
+  {
+    "id": 20,
+    "flavour": "Hazelnut",
+    "name": "Hazelnut Heaven",
+    "price": 5.1
+  }
+]
