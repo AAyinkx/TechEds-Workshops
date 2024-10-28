@@ -32,3 +32,4 @@ function CreateNumber2(Array) {
 }
 console.log(CreateNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 11, 12, 13, 14, 15]));
 console.log(CreateNumber2([1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 11, 12, 13, 14, 15]));
+console.log("Hello");
